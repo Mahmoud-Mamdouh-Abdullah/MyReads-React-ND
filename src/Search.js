@@ -44,10 +44,10 @@ class Search extends Component {
                 <Main onSearch={this.searchBook} from='search' />
 
                 <div className='container'>
-                    <div className='row'>
+                    <div className='row bookShelf'>
                         {(books.error ? '' : (
                             books.map(book => (
-                                <div key={book.id} className='col-lg-2'>
+                                <div key={book.id} className='col-lg-2 col-md-3 col-sm-4 col-12'>
                                     {<Book
                                         shelf={this.isBookIsMine(book)}
                                         book={book}
