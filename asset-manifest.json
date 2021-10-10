@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/MyReads-React-ND/static/css/main.11b884d1.chunk.css",
-    "main.js": "/MyReads-React-ND/static/js/main.779c12d9.chunk.js",
-    "main.js.map": "/MyReads-React-ND/static/js/main.779c12d9.chunk.js.map",
+    "main.css": "/MyReads-React-ND/static/css/main.2d2fe076.chunk.css",
+    "main.js": "/MyReads-React-ND/static/js/main.6b1ed44d.chunk.js",
+    "main.js.map": "/MyReads-React-ND/static/js/main.6b1ed44d.chunk.js.map",
     "runtime-main.js": "/MyReads-React-ND/static/js/runtime-main.4e06690a.js",
     "runtime-main.js.map": "/MyReads-React-ND/static/js/runtime-main.4e06690a.js.map",
     "static/css/2.0f1110e3.chunk.css": "/MyReads-React-ND/static/css/2.0f1110e3.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.e802ce01.chunk.js.map": "/MyReads-React-ND/static/js/3.e802ce01.chunk.js.map",
     "index.html": "/MyReads-React-ND/index.html",
     "static/css/2.0f1110e3.chunk.css.map": "/MyReads-React-ND/static/css/2.0f1110e3.chunk.css.map",
-    "static/css/main.11b884d1.chunk.css.map": "/MyReads-React-ND/static/css/main.11b884d1.chunk.css.map",
+    "static/css/main.2d2fe076.chunk.css.map": "/MyReads-React-ND/static/css/main.2d2fe076.chunk.css.map",
     "static/js/2.48cc3303.chunk.js.LICENSE.txt": "/MyReads-React-ND/static/js/2.48cc3303.chunk.js.LICENSE.txt",
     "static/media/App.css": "/MyReads-React-ND/static/media/arrow-drop-down.4378492a.svg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.4e06690a.js",
     "static/css/2.0f1110e3.chunk.css",
     "static/js/2.48cc3303.chunk.js",
-    "static/css/main.11b884d1.chunk.css",
-    "static/js/main.779c12d9.chunk.js"
+    "static/css/main.2d2fe076.chunk.css",
+    "static/js/main.6b1ed44d.chunk.js"
   ]
 }
