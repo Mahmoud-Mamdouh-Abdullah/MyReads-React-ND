@@ -11,7 +11,7 @@ class Shelf extends Component {
                 <hr />
                 <div className='row bookShelf'>
                     {books.map((book) => (
-                        <div key={book.id} className='col-lg-2 col-md-3 col-sm-4 col-5'>
+                        <div key={book.id} className='col-lg-2 col-md-3 col-sm-4 col-12'>
                             <Book
                                 shelf={shelf.id}
                                 book={book}

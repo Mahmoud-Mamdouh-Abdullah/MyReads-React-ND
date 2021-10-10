@@ -109,20 +109,27 @@
 }
 
 
-@media (max-width: 600px) and (min-width: 480px) {
+@media (max-width: 575px) {
+  .bookShelf {
+    padding-left: 150px;
+  }
+}
+
+@media (max-width: 420px) {
+  .bookShelf {
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 320px) {
   .bookShelf {
     padding-left: 80px;
   }
 }
 
-@media (max-width: 479px) {
+@media (max-width: 320px) {
   .bookShelf {
-    padding-left: 30px;
-  }
-}
-@media (max-width: 600px) {
-  .bookShelf {
-    padding-left: 80px;
+    padding-left: 10px;
   }
 }
 
