@@ -4,18 +4,20 @@ import Main from "./Main";
 import facebook from './icons/icons8-facebook-240.png'
 import twitter from './icons/icons8-twitter-240.png'
 import linkedin from './icons/icons8-linkedin-240.png'
+import defaultImage from './images/default.jpg'
 
 const BookDetails = (props) => {
 
     const location = useLocation()
     const { book } = location.state;
+    const imageURL = (book.imageLinks) ? book.imageLinks.thumbnail : defaultImage;
     return (
         <div>
             <Main from='details' />
             <div className='container' style={{ paddingTop: '100px' }}>
                 <div className='row'>
                     <div className='col-lg-2 d-flex flex-column justify-content-start' style={{ paddingLeft: '50px' }}>
-                        <div className="book-cover" style={{ width: 128, height: 188, backgroundPosition: 'center', backgroundImage: `url('${book.imageLinks.thumbnail}')` }}></div>
+                        <div className="book-cover" style={{ width: 128, height: 188, backgroundPosition: 'center', backgroundImage: `url('${imageURL}')` }}></div>
                         <span className='text-start mt-2'>PUBLISHED : {book.publishedDate}</span>
                         <span className='text-start mt-1'>PAGES : {book.pageCount}</span>
                     </div>
