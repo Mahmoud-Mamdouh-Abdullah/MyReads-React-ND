@@ -10,6 +10,10 @@ class Search extends Component {
         books: []
     }
 
+    /**
+     * search by title or author and get the result from the API and update the state.books
+     * @param {the search key} query 
+     */
     searchBook = (query) => {
         if (query.length > 0) {
             search(query).then((books) => {

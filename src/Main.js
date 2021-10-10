@@ -8,6 +8,10 @@ class Main extends Component {
         query: '',
     }
 
+    /**
+     * update the state.query with the changed input query
+     * @param {the input query} query 
+     */
     updateQuery = (query) => {
         this.setState(() => ({
             query: query

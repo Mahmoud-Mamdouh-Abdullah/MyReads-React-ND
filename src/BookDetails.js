@@ -8,6 +8,9 @@ import defaultImage from './images/default.jpg'
 
 const BookDetails = (props) => {
 
+    /**
+     * get the book passed in the Link
+     */
     const location = useLocation()
     const { book } = location.state;
     const imageURL = (book.imageLinks) ? book.imageLinks.thumbnail : defaultImage;

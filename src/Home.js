@@ -4,6 +4,9 @@ import Shelf from "./Shelf";
 import { Link } from "react-router-dom";
 import PropTypes from 'prop-types';
 
+/**
+ * the array of 3 shelves with id and name
+ */
 const shelves = [
     { id: 'currentlyReading', name: 'Currently Reading' },
     { id: 'wantToRead', name: 'Want to Read' },

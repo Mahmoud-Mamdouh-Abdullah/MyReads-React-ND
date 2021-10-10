@@ -4,6 +4,11 @@ import defaultImage from './images/default.jpg'
 import { Link } from "react-router-dom";
 class Book extends Component {
 
+    /**
+     * pass the value to the function in the App.js Component
+     * @param {the book which will update it's shelf} book 
+     * @param {the value of the shelf} shelf 
+     */
     addToShelf = (book, shelf) => {
         this.props.onUpdateBookShelf(book, shelf);
     }
@@ -42,6 +47,10 @@ class Book extends Component {
 
 }
 
+/**
+ * add constaints on the props because when error occured
+ * to show me what exact is the error
+ */
 Book.propTypes = {
     book: PropTypes.object.isRequired,
     shelf: PropTypes.string.isRequired,

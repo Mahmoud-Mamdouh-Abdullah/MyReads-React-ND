@@ -14,6 +14,9 @@ class App extends Component {
     books: []
   }
 
+  /**
+   * get all my books
+   */
   componentDidMount() {
     getAll().then((books) => {
       this.setState(() => ({
@@ -22,6 +25,11 @@ class App extends Component {
     })
   }
 
+  /**
+   * update the book shelf
+   * @param {the book which will update it's shelf} book 
+   * @param {the value of the shelf} shelf 
+   */
   updateBookShelf = (book, shelf) => {
     update(book, shelf).then((data) => {
       book.shelf = shelf;
