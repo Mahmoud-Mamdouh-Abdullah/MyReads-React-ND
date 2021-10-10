@@ -22,8 +22,8 @@ class Main extends Component {
         return (
             <div className='mb-5'>
                 <header className='bg-dark navbar border-bottom'>
-                    <div className='container pt-3 pb-3'>
-                        <div className='d-flex flex-row justify-content-start'>
+                    <div className='container row pt-2 pb-2'>
+                        <div className='col-lg-4 col-md-4 col-sm-6'>
                             <Link
                                 to='/'
                                 className='header-link'>
@@ -32,12 +32,11 @@ class Main extends Component {
                             </Link>
                         </div>
                         {(this.props.from === 'search') && (
-                            <div className='d-flex flex-row justify-content-end'>
+                            <div className='col-lg-8 col-md-8 col-sm-6 '>
                                 <input
-                                    className='form-control from-text'
+                                    className='form-control from-text d-block'
                                     type='text'
                                     placeholder='Search by title or author'
-                                    style={{ width: '350px' }}
                                     value={this.state.query}
                                     onChange={(event) => this.updateQuery(event.target.value)} />
                             </div>
