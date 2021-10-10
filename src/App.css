@@ -109,6 +109,17 @@
 }
 
 
+@media (max-width: 600px) and (min-width: 480px) {
+  .bookShelf {
+    padding-left: 80px;
+  }
+}
+
+@media (max-width: 479px) {
+  .bookShelf {
+    padding-left: 30px;
+  }
+}
 @media (max-width: 600px) {
   .bookShelf {
     padding-left: 80px;
